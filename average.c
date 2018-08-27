@@ -11,19 +11,19 @@
 
 int main(int argc, char **argv) {
 
-int a, b ,c;
+double a, b ,c;
 printf ("Please enter the first number: ");
-scanf ("%d", &a);
+scanf ("%lf", &a);
 
 printf ("Please enter the second number: ");
-scanf ("%d", &b);
+scanf ("%lf", &b);
 
 printf ("Please enter the third number: ");
-scanf ("%d", &c);
+scanf ("%lf", &c);
 
 double average = ( (double) a + b + c) / 3;
 
-printf("The average of %d, %d and %d is %f \n", a, b, c, average);
+printf("The average of %f, %f and %f is %f \n", a, b, c, average);
 
   return 0;
 }
